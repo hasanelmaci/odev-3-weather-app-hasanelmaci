@@ -1,0 +1,15 @@
+.list{
+    display:flex;
+    justify-content: center;
+}
+
+.list p{
+    text-align: center;
+}   
+
+.forecastContentFirst{
+    border:1px solid rgb(165, 164, 164);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+
+}

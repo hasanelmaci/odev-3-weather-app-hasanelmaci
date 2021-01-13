@@ -1,5 +1,5 @@
 import {createContext ,useState} from 'react'
-
+import styles from './CityProvider.module.css'
 
 export const CityContext = createContext(null)
 
@@ -12,9 +12,10 @@ function CityProvider({children}) {
     }
 
    return (
-       <div className="select">
+       <div className={styles.selectContainer}>
+<CityContext.Provider value={city}>{children}</CityContext.Provider>
            <select name="City" onChange={handleChange}>
-   <option value="0">------</option>
+   <option value="Izmir">Select City</option>
    <option value="Adana">Adana</option>
    <option value="Adiyaman">Adıyaman</option>
    <option value="Afyonkarahisar">Afyonkarahisar</option>
@@ -98,7 +99,6 @@ function CityProvider({children}) {
    <option value="Duzce">Düzce</option>
 </select>
 
-    <CityContext.Provider value={city}>{children}</CityContext.Provider>
 
         </div>
     )

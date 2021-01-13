@@ -1,9 +1,9 @@
-import React from 'react'
+import styles from "./Forecast.module.css"
 
 
 
 
-function Forecast({item}) {
+function Forecast({item,index}) {
 
     let date = new Date(item.valid_date);
     var weekday = new Array(7);
@@ -19,11 +19,11 @@ function Forecast({item}) {
 
     
     return (
-        <li className="forecast-list">
-           <div className="forecast-content">
+        <li className={styles.list}>
+           <div className={ index ==0 ? styles.forecastContentFirst : styles.forecastContent}>
+               <p className="day">{day}</p>
                <img src={`https://www.weatherbit.io/static/img/icons/${item.weather.icon}.png`}/>
                <p className="min-max">{item.high_temp}° {item.min_temp}°</p>
-               <p className="day">{day}</p>
            </div>
         </li>
     )

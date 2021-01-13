@@ -35,7 +35,7 @@ function FetchData() {
            
            <ForecastContainer data={data}/>
 
-           : "LOADING"}
+           : <h1>LOADING</h1>}
         </div>
     )
 }
