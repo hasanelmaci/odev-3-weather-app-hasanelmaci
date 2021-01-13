@@ -1,7 +1,7 @@
 import './App.css';
 import FetchData from './components/FetchData'
 import CityProvider from './contexts/CityProvider'
-import Header from "./components/Header"
+import Header from "./components/Header/Header"
 
 
 function App() {

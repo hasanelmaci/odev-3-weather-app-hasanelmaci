@@ -1,6 +1,6 @@
 import React from "react";
-import Forecast from "./Forecast";
-import MainForecast from "./MainForecast";
+import Forecast from "../Forecast/Forecast";
+import MainForecast from "../MainForecast/MainForecast";
 import styles from "./ForecastContainer.module.css"
 
 function ForecastContainer({ data }) {

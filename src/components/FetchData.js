@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {useState, useEffect,useContext} from 'react';
 import {CityContext} from '../contexts/CityProvider';
-import ForecastContainer from './ForecastContainer'
+import ForecastContainer from './ForecastContainer/ForecastContainer'
 
 function FetchData() {
 

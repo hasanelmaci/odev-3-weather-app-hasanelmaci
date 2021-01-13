@@ -1,5 +1,5 @@
 import {useContext} from 'react'
-import {CityContext} from '../contexts/CityProvider';
+import {CityContext} from '../../contexts/CityProvider';
 import styles from './MainForecast.module.css';
 
 
