@@ -12,7 +12,7 @@ function MainForecast({ item }) {
         <div className={styles.header}>
           <h1>{name}</h1>
           <img
-            src={`https://www.weatherbit.io/static/img/icons/${mainDay.weather.icon}.png`}
+            src={`https://www.weatherbit.io/static/img/icons/${mainDay.weather.icon}.png`} alt= ""
           />
         </div>
         <div className={styles.info}>

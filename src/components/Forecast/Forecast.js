@@ -17,12 +17,12 @@ function Forecast({ item, index }) {
     <li className={styles.list}>
       <div
         className={
-          index == 0 ? styles.forecastContentFirst : styles.forecastContent
+          index === 0 ? styles.forecastContentFirst : styles.forecastContent
         }
       >
         <p className="day">{day}</p>
         <img
-          src={`https://www.weatherbit.io/static/img/icons/${item.weather.icon}.png`}
+          src={`https://www.weatherbit.io/static/img/icons/${item.weather.icon}.png`} alt=""
         />
         <p className="min-max">
           {item.high_temp}° {item.min_temp}°
