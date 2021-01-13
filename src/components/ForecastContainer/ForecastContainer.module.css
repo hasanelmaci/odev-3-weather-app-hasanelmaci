@@ -1,18 +1,16 @@
-.listContainer{
-    display:flex;
-    flex-wrap: wrap;
-    max-width: auto;
-    height: 100%;
-    margin: 0 auto; 
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: auto;
+  height: 100%;
+  margin: 0 auto;
 }
 
-.listContainer img{
-    width: 100px;
+.listContainer img {
+  width: 100px;
 }
 
-
-.container{
-    display:flex;
-    flex-direction: column;
+.container {
+  display: flex;
+  flex-direction: column;
 }
-

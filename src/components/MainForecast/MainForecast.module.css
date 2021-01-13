@@ -1,35 +1,34 @@
-.mainForecastContainer{
-    width: 100%;
-    height: 100%;
-    margin:0 auto;
-    display:flex;
-    justify-content: center;
+.mainForecastContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
-.mainForecast{
-display:flex;
-text-align: center;
+.mainForecast {
+  display: flex;
+  text-align: center;
 }
 
-.mainForecast img{
-    width: 200px;
+.mainForecast img {
+  width: 200px;
 }
 
-.mainForecast h1{
-    position: relative;
-    margin-right:120;        
+.mainForecast h1 {
+  position: relative;
+  margin-right: 120;
 }
 
-.info{
-    display:flex;
-    flex-direction: column;
-    margin-top:50px;
-
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
 }
 
-.info :nth-child(1){
-    font-size:4rem;
+.info :nth-child(1) {
+  font-size: 4rem;
 }
-.info :nth-child(2){
-    font-size:1.2rem;
+.info :nth-child(2) {
+  font-size: 1.2rem;
 }

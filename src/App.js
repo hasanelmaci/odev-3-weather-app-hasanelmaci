@@ -1,21 +1,17 @@
-import './App.css';
-import FetchData from './components/FetchData'
-import CityProvider from './contexts/CityProvider'
-import Header from "./components/Header/Header"
-
+import "./App.css";
+import FetchData from "./components/FetchData";
+import CityProvider from "./contexts/CityProvider";
+import Header from "./components/Header/Header";
 
 function App() {
-
-  
   return (
     <div className="app">
       <div className="content">
-      <Header/>
-      <CityProvider>
-      <FetchData />
-      </CityProvider>
+        <Header />
+        <CityProvider>
+          <FetchData />
+        </CityProvider>
       </div>
-
     </div>
   );
 }
